@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/iranian-sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tap30</title>
+</head>
+
+<body>
+    <main id="mainTopics">
+        <nav class="navbar">
+            <img src="/assets/images/Logo.svg" alt="Tapsi logo">
+            <ul>
+                <li><a href="#">پشتیبانی</a></li>
+                <li><a href="#">خدمات کسب و کار ها</a></li>
+                <li><a href="#">فرصت های شغلی</a></li>
+                <li><a href="#">وبلاگ</a></li>
+            </ul>
+            <button class="download orangeButton" onclick="window.location.href='#'">دانلود تپسی</button>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"><i class="fa-solid fa-bars"></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">پشتیبانی</a>
+                    <a href="#">خدمات کسب و کار</a>
+
+                    <a href="#">فرصت های شغلی</a>
+                    <a href="#">وبلاگ</a>
+                </div>
+            </div>
+        </nav>
+        <article class="introduction">
+            <div class="downloadBox">
+                <h3>تپسی</h3>
+                <h4>اپلیکیشن درخواست خودرو و پیک</h4>
+                <button class="passenger passenger1" onclick="window.location.href='#'">دانلود اپلیکیشن
+                    مسافران</button>
+                <button class="passenger passenger2" onclick="window.location.href='#'">وب اپلیکیشن مسافران</button>
+                <button class="driver driver1" onclick="window.location.href='#'">دانلود اپلیکیشن رانندگان</button>
+                <button class="driver driver2" onclick="window.location.href='#'">ثبت نام رانندگان</button>
+            </div>
+            <img src="/assets/images/mockup-phone.png" alt="iphone">
+        </article>
+        <article id="services">
+            <h2>سرویس های تپسی</h2>
+            <img class="desktop" src="/assets/images/ServicesDesktop.png" alt="Tap30 Services">
+            <img class="mobileVersion" src="/assets/images/ServicesMobile.png" alt="Tap30 Services">
+            <img class="tabletVersion" src="/assets/images/ServicesTablet.png" alt="Tap30 Services">
+        </article>
+        <article id="tap30Plus">
+            <h2>تپسی پلاس</h2>
+            <p>در سرویس پلاس تاکسی اینترنتی تپسی، خودرویی با مدل بالاتر و عمر کمتر، به دنبال شما خواهد آمد.
+                همچنین، رانندگان این سرویس بالاترین امتیاز را از مسافران دریافت کرده اند.در این سرویس که در حال حاضر در
+                تهران فعال است، امکان تعیین چند مقصد یا توقف در حین سفر، وجود دارد.
+            </p>
+            <img src="/assets/images/illus-plus 1.png" alt="car in the city">
+        </article>
+        <article id="tap30Businesses">
+            <h2>خدمات تپسی برای کسب و کار ها</h2>
+            <img src="/assets/images/i-mac 1.png" alt="iMac">
+            <p>پنل سازمانی تپسی، یک سامانه تحت وب است که به سادگی امکان درخواست همزمان تعداد نامحدودی خودرو و پیک را
+                برای کسب و کار ها
+                و سازمان ها فراهم می کند و با استفاده از آن می توانید ماموریت های درون شهری و ارسال کالاهای خود را به
+                سادگی مدیریت کنید.
+            </p>
+            <button class="orangeButton">ورود و ثبت نام پنل سازمانی</button>
+        </article>
+        <article id="offers">
+            <h2>خرید کد اعتبار تپسی</h2>
+            <img src="/assets/images/macbook 1.png" alt="macbook">
+            <p>
+                کاربران، کسب و کار ها و سازمان ها می توانند به تعداد و مبلغ مورد نظرشان، کد اعتبار یا کد تخفیف تپسی تهیه
+                کرده
+                و برای خود، پرسنل و مشتریانشان استفاده کنند و از تخفیف های ویژه تپسی نیز بهره مند شوند. <br>
+                این کد ها امکان سفارشی سازی بر اساس مبدا، مقصد، زمان، درصد و مبلغ را دارند.
+            </p>
+            <button class="orangeButton">خرید کد اعتبار و تخفیف</button>
+        </article>
+        <article id="reservationPlans">
+            <h2>پلن های رزرو تاکسی</h2>
+            <div class="plan1">
+                <div class="planHeader1">
+                    <h5 class="plan1Item1">عادی</h5>
+                    <label for="off" class="plan1Item2" dir="ltr">10% OFF</label>
+                    <h6 class="plan1Item3">ماهانه/تومان</h6>
+                    <h4 class="plan1Item4">290,000</h4>
+                    <h5 class="plan1Item5">سرویس ماشین های معمولی</h5>
+                </div>
+                <ul>
+                    <li>کیفیت معمولی</li>
+                    <li>کیفیت معمولی</li>
+                    <li>کیفیت معمولی</li>
+                    <li>کیفیت معمولی</li>
+                </ul>
+                <button class="orangeButton">ثبت سفارش</button>
+            </div>
+            <div class="plan2">
+                <div class="planHeader2">
+                    <h5 class="plan2Item1">اقتصادی</h5>
+                    <label for="off" class="plan2Item2" dir="ltr">15% OFF</label>
+                    <h6 class="plan2Item3">ماهانه/تومان</h6>
+                    <h4 class="plan2Item4">390,000</h4>
+                    <h5 class="plan2Item5">سرویس ماشین های کلاسیک</h5>
+                </div>
+                <ul>
+                    <li>کیفیت عالی</li>
+                    <li>کم سر و صدا</li>
+                    <li>زمان محدود</li>
+                    <li>سرویس روزانه</li>
+                </ul>
+                <button class="orangeButton">ثبت سفارش</button>
+            </div>
+            <div class="plan3">
+                <div class="planHeader3">
+                    <h5 class="plan3Item1">ویژه</h5>
+                    <label for="off" class="plan3Item2" dir="ltr">20% OFF</label>
+                    <h6 class="plan3Item3">ماهانه/تومان</h6>
+                    <h4 class="plan3Item4">490,000</h4>
+                    <h5 class="plan3Item5">سرویس ماشین های مدل بالا</h5>
+                </div>
+                <ul>
+                    <li>کیفیت خیلی خفن</li>
+                    <li>بی سر و صدا</li>
+                    <li>زمان نامحدود</li>
+                    <li>سرویس نامحدود</li>
+                </ul>
+                <button class="orangeButton">ثبت سفارش</button>
+            </div>
+        </article>
+        <article id="prizes">
+            <h2>جوایز ویژه</h2>
+            <div class="prizeOffers1">
+                <div class="offerPlan">
+                    <label for="" class="offerPlanItem1">ویژه</label>
+                    <h4 class="offerPlanItem2">اقامت رایگان . سفر 3 روزه</h4>
+                    <h3 class="offerPlanItem3">سفر به قلب کویر لوت</h3>
+                    <i class="fa-solid fa-trash-can offerPlanItem4"></i>
+                    <i class="fa-solid fa-heart offerPlanItem5"></i>
+                    <i class="fa-sharp fa-eye offerPlanItem6"></i>
+                    <i class="fa-solid fa-arrow-up-right-from-square offerPlanItem7"></i>
+                </div>
+            </div>
+            <div class="prizeOffers2">
+                <div class="offerPlan">
+                    <label for="" class="offerPlanItem1">ویژه</label>
+                    <h4 class="offerPlanItem2">اقامت رایگان . سفر 4 روزه</h4>
+                    <h3 class="offerPlanItem3">سفر به دامنه های زاگرس</h3>
+                    <i class="fa-solid fa-trash-can offerPlanItem4"></i>
+                    <i class="fa-solid fa-heart offerPlanItem5"></i>
+                    <i class="fa-sharp fa-eye offerPlanItem6"></i>
+                    <i class="fa-solid fa-arrow-up-right-from-square offerPlanItem7"></i>
+                </div>
+            </div>
+            <div class="prizeOffers3">
+                <div class="offerPlan">
+                    <label for="" class="offerPlanItem1">ویژه</label>
+                    <h4 class="offerPlanItem2">اقامت رایگان . سفر 7 روزه</h4>
+                    <h3 class="offerPlanItem3">تور آفرودی کویر لوت</h3>
+                    <i class="fa-solid fa-trash-can offerPlanItem4"></i>
+                    <i class="fa-solid fa-heart offerPlanItem5"></i>
+                    <i class=" fa-sharp fa-eye offerPlanItem6"></i>
+                    <i class="fa-solid fa-arrow-up-right-from-square offerPlanItem7"></i>
+                </div>
+            </div>
+        </article>
+        <article id="contactUs">
+            <h2>ارتباط با ما</h2>
+            <h3>شما می توانید، نظرات و انتقادات خود را برای ما بفرستید</h3>
+            <div class="info">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="location" dir="ltr">6386 Spring St undefined Anchorage,
+                    Georgia 12473 United States</p>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <p class="phoneNumber" dir="ltr">(843) 555-0130</p>
+                <i class="fa-solid fa-envelope"></i>
+                <p class="email" dir="ltr">willie.jennings@example.com</p>
+            </div>
+
+            <form action="">
+                <h2>نظرات شما</h2>
+                <input class="nameInput" type="text" placeholder="نام شما">
+                <input class="emailInput" type="email" placeholder="ایمیل شما">
+                <input class="commentInput" type="text" placeholder="نظر شما">
+                <button type="submit" class="orangeButton">ارسال</button>
+            </form>
+
+            <img class="map" src="/assets/images/@ map screen.png" alt="map">
+
+            <div class="socialMedia">
+                <a href="twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </article>
+
+        <footer>
+            <div class="introduction2">
+                <img src="/assets/images/logo.svg" alt="tap30">
+                <p>تپسی بزرگ ترین سامانه ی تاکسی اینترنتی کشور، با بیش از 5 سال سابقه با تیم پشتیبانی 24 ساعته و
+                    رانندگانی
+                    مجرب و خبره آماده ی خدمت رسانی به افراد و سازمان ها به صورت پاره وقت تمام وقت</p>
+                <div class="socialMediaFooter">
+                    <a href="twitter.com"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                    <a href="instagram.com"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                    <a href="youtube.com"><i class="fa-brands fa-youtube fa-2x"></i></a>
+                    <a href="#"><i class="fa-solid fa-basketball fa-2x"></i></a>
+                </div>
+            </div>
+            <ul class="shortcut">
+                <li><label class="label1" for="">تپسی</label></li>
+                <li><a href="#" class="label1-1">خانه</a></li>
+                <li><a href="#" class="label1-2">فروشگاه</a></li>
+                <li><a href="#" class="label1-3">ورود به داشبورد</a></li>
+            </ul>
+            <ul class="storeShortcut">
+                <li><label class="label2" for="">خدمات</label></li>
+                <li><a href="#" class="label2-1">تپسی پلاس</a></li>
+                <li><a href="#" class="label2-2">تپسی سازمانی</a></li>
+                <li><a href="#" class="label2-3">پلن های رزروی</a></li>
+            </ul>
+            <ul class="aboutUsShortcut">
+                <li><label class="label3" for="">تپسی</label></li>
+                <li><a href="#" class="label3-1">درباره تپسی</a></li>
+                <li><a href="#" class="label3-2">وبلاگ</a></li>
+                <li><a href="#" class="label3-3">موقعیت های شغلی</a></li>
+                <li><a href="#" class="label3-4">تماس با ما</a></li>
+            </ul>
+            <ul class="downloadShortcut">
+                <li><label class="label4" for="">دانلود اپلیکیشن</label></li>
+                <li><img class="storeLabel2" src="/Assets/Images/google-play-badge.png" alt="googlePlay"></a></li>
+                <li><img class="storeLabel1" src="/Assets/Images/AppStore1.png" alt="appStore"> </a></li>
+            </ul>
+        </footer>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"
+        integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>
